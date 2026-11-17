@@ -1,0 +1,153 @@
+{
+  "appName": "AGRISATHI",
+  "tagline": "Smart Farming. Better Harvest. Brighter Future.",
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "features": "Features",
+    "login": "Login",
+    "register": "Register",
+    "getStarted": "Get Started",
+    "language": "Language"
+  },
+  "hero": {
+    "title": "Empowering Farmers with Smart Agriculture",
+    "teluguTitle": "స్మార्ट వ్యవసాయంతో రైతులకు అండగా AGRISATHI",
+    "description": "Your intelligent agricultural companion. Get crop guidance, weather updates, market prices, farming solutions, and expert support in one simple platform.",
+    "getStarted": "Get Started",
+    "exploreFeatures": "Explore Features"
+  },
+  "features": {
+    "title": "Quick Feature Overview",
+    "description": "Everything you need for smarter farming, in one place.",
+    "items": [
+      {
+        "name": "AI Voice Assistant",
+        "desc": "Ask farming questions in your language using voice.",
+        "button": "Explore"
+      },
+      {
+        "name": "Crop Disease Detection",
+        "desc": "Identify plant diseases from a photo of the leaf.",
+        "button": "Explore"
+      },
+      {
+        "name": "Weather Forecast",
+        "desc": "Local weather updates to plan your farming.",
+        "button": "Explore"
+      },
+      {
+        "name": "Market Prices",
+        "desc": "Check today's crop prices at nearby markets.",
+        "button": "Explore"
+      },
+      {
+        "name": "Government Schemes",
+        "desc": "Find welfare schemes you qualify for.",
+        "button": "Explore"
+      },
+      {
+        "name": "Agricultural Marketplace",
+        "desc": "Buy seeds and sell produce directly.",
+        "button": "Explore"
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "How AGRISATHI Works",
+    "description": "Simple steps to better farming.",
+    "steps": [
+      {
+        "title": "Join AGRISATHI",
+        "desc": "Create your farmer profile and select your preferred language."
+      },
+      {
+        "title": "Explore Agricultural Services",
+        "desc": "Access AI assistance, weather, crop information, market prices, and more."
+      },
+      {
+        "title": "Improve Your Farming",
+        "desc": "Receive useful agricultural information and make better farming decisions."
+      }
+    ]
+  },
+  "voiceFirst": {
+    "title": "Just Speak. AGRISATHI Understands.",
+    "teluguTitle": "మీ భాషలో మాట్లాడండి. వ్యవసాయ సహాయం పొందండి.",
+    "hindiTitle": "अपनी भाषा में बोलें. कृषि सहायता पाएं.",
+    "description": "Farmers can ask agricultural questions in Telugu, English, or Hindi using voice interaction.",
+    "button": "Try Voice Assistant",
+    "sampleCommands": [
+      "What is the best fertilizer for cotton?",
+      "When will it rain this week?",
+      "What is today's market price for paddy?",
+      "My tomato leaves have spots. What should I do?"
+    ]
+  },
+  "agriFeatures": {
+    "title": "Agricultural Features",
+    "description": "Complete tools for every stage of farming.",
+    "items": [
+      { "name": "Crop Doctor", "desc": "Expert advice for crop health." },
+      { "name": "Weather", "desc": "Accurate local forecasts." },
+      { "name": "Market Prices", "desc": "Real-time mandi rates." },
+      { "name": "Land Measurement", "desc": "Measure your farm area." },
+      { "name": "Farming Calculators", "desc": "Calculate inputs and yields." },
+      { "name": "Crop Information", "desc": "Complete crop guides." },
+      { "name": "Agri Shorts", "desc": "Quick farming tips." },
+      { "name": "Government Schemes", "desc": "Welfare scheme details." },
+      { "name": "Marketplace", "desc": "Buy and sell farm products." },
+      { "name": "Livestock", "desc": "Animal care guidance." },
+      { "name": "Agricultural Services", "desc": "Book expert services." },
+      { "name": "Crop Planner", "desc": "Plan your season ahead." }
+    ]
+  },
+  "simpleForAll": {
+    "title": "Designed for Every Farmer",
+    "description": "Built with simplicity at its core, so every farmer can use it confidently.",
+    "benefits": [
+      "Easy-to-understand interface",
+      "Telugu language support",
+      "Voice-based assistance",
+      "Large buttons and icons",
+      "Mobile-friendly design",
+      "Simple navigation"
+    ]
+  },
+  "cta": {
+    "title": "Start Your Smart Farming Journey Today",
+    "description": "Join AGRISATHI and access useful agricultural information and services in one place.",
+    "button": "Create Your Account"
+  },
+  "footer": {
+    "description": "Empowering farmers with smart agriculture technology.",
+    "quickLinks": "Quick Links",
+    "agriModules": "Agricultural Modules",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms and Conditions",
+    "copyright": "All rights reserved."
+  },
+  "buttons": {
+    "createAccount": "Create Your Account",
+    "login": "Login",
+    "register": "Register"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "tryAgain": "Try Again",
+    "close": "Close"
+  },
+  "comingSoon": {
+    "title": "Coming Soon",
+    "description": "This feature is under development. Please check back later.",
+    "button": "Go to Home"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist.",
+    "button": "Go to Home"
+  }
+}

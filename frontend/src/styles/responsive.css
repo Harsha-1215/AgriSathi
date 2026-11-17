@@ -1,0 +1,46 @@
+@media (max-width: 480px) {
+  .container {
+    padding: 0 1rem;
+  }
+  .section-padding {
+    padding: 2.5rem 0;
+  }
+  .touch-target {
+    min-height: 48px;
+    min-width: 48px;
+  }
+  .hide-mobile {
+    display: none !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+  .hide-tablet {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1025px) {
+  .hide-desktop {
+    display: none !important;
+  }
+}
+
+.header-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-collapsed {
+  display: none;
+}
+
+@media (min-width: 1025px) {
+  .navbar-collapsed {
+    display: block;
+  }
+}

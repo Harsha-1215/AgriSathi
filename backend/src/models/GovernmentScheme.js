@@ -1,0 +1,38 @@
+const { DataTypes } = require('sequelize');
+
+module.exports = (sequelize) => sequelize.define('GovernmentScheme', {
+  id: { type: DataTypes.UUID, primaryKey: true, defaultValue: DataTypes.UUIDV4 },
+  schemeName: { type: DataTypes.STRING(240), allowNull: false },
+  shortDescription: { type: DataTypes.TEXT, allowNull: false },
+  fullDescription: { type: DataTypes.TEXT, allowNull: false },
+  department: { type: DataTypes.STRING(240), allowNull: false },
+  governmentLevel: { type: DataTypes.ENUM('central', 'state'), allowNull: false },
+  state: { type: DataTypes.STRING(120), allowNull: true },
+  categoryId: { type: DataTypes.UUID, allowNull: false },
+  benefitDetails: { type: DataTypes.JSONB, allowNull: false, defaultValue: {} },
+  eligibilityCriteria: { type: DataTypes.JSONB, allowNull: false, defaultValue: [] },
+  requiredDocuments: { type: DataTypes.JSONB, allowNull: false, defaultValue: [] },
+  applicationProcedure: { type: DataTypes.JSONB, allowNull: false, defaultValue: [] },
+  officialWebsite: { type: DataTypes.STRING(1000), allowNull: true },
+  guidelineUrl: { type: DataTypes.STRING(1000), allowNull: true },
+  applicationStartDate: { type: DataTypes.DATEONLY, allowNull: true },
+  applicationEndDate: { type: DataTypes.DATEONLY, allowNull: true },
+  applicationStatus: { type: DataTypes.ENUM('unknown', 'open', 'closed'), allowNull: false, defaultValue: 'unknown' },
+  applicationStatusVerifiedAt: { type: DataTypes.DATE, allowNull: true },
+  statusSource: { type: DataTypes.STRING(1000), allowNull: true },
+  source: { type: DataTypes.STRING(1000), allowNull: false },
+  lastVerifiedAt: { type: DataTypes.DATE, allowNull: true },
+  informationVersion: { type: DataTypes.INTEGER, allowNull: false, defaultValue: 1 },
+  verifiedBy: { type: DataTypes.STRING(120), allowNull: true },
+  isPublished: { type: DataTypes.BOOLEAN, allowNull: false, defaultValue: false },
+  isActive: { type: DataTypes.BOOLEAN, allowNull: false, defaultValue: true },
+}, {
+  tableName: 'government_schemes',
+  indexes: [
+    { fields: ['isPublished', 'isActive', 'governmentLevel'] },
+    { fields: ['categoryId', 'isPublished'] },
+    { fields: ['state', 'isPublished'] },
+    { fields: ['lastVerifiedAt'] },
+    { fields: ['applicationStatus', 'isPublished'] },
+  ],
+});
